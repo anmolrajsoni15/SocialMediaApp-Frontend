@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "../services/helper";
 
 export const likePost = (id) => async(dispatch) => {
     try {
