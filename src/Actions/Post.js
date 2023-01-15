@@ -1,5 +1,7 @@
 import axios from "axios";
-import { URL } from "../App";
+// import { URL } from "../App";
+const URL = "https://mera-social-media-api.onrender.com";
+
 
 export const likePost = (id) => async(dispatch) => {
     try {
