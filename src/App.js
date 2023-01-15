@@ -17,6 +17,8 @@ import UserProfile from "./Components/UserProfile/UserProfile";
 import Search from "./Components/Search/Search";
 import NotFound from "./Components/NotFound/NotFound";
 
+export const URL = process.env.PORT_BACK;
+
 function App() {
   const dispatch = useDispatch();
 
